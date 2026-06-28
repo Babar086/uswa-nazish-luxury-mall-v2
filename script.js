@@ -208,3 +208,18 @@ cards.forEach(card => {
 //========== Console Message ==========//
 
 console.log("Uswa Nazish Luxury Shopping Mall Loaded Successfully.");
+const clientForm = document.getElementById("clientForm");
+
+if(clientForm){
+
+clientForm.addEventListener("submit",(e)=>{
+
+e.preventDefault();
+
+alert("Client Login Successful (Demo Mode)");
+
+clientForm.reset();
+
+});
+
+}
