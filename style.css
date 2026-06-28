@@ -641,3 +641,35 @@ margin-top:15px;
 }
 
 /*========== Floating Buttons ==========*/
+.client-login{
+text-align:center;
+}
+
+.login-box{
+max-width:400px;
+margin:auto;
+background:var(--glass);
+padding:30px;
+border-radius:20px;
+border:1px solid var(--border);
+}
+
+.login-box input{
+width:100%;
+padding:15px;
+margin:10px 0;
+border:none;
+border-radius:10px;
+background:rgba(255,255,255,.08);
+color:#fff;
+}
+
+.login-box button{
+width:100%;
+padding:15px;
+border:none;
+border-radius:30px;
+background:var(--primary);
+font-weight:600;
+cursor:pointer;
+}
