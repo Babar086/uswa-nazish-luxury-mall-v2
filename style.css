@@ -673,3 +673,12 @@ background:var(--primary);
 font-weight:600;
 cursor:pointer;
 }
+.contact-info a{
+color:#25D366;
+font-weight:600;
+text-decoration:none;
+}
+
+.contact-info a:hover{
+text-decoration:underline;
+}
